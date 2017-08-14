@@ -1,0 +1,343 @@
+@protocol LJTweetDataContentTopicModel<NSObject>
+
+@end
+
+
+@protocol LJTweetDataContentTopicCommentListModel<NSObject>
+
+@end
+
+
+@interface  LJTweetDataContentTopicCommentListModel  : JSONModel 
+
+@property (nonatomic, copy , nullable) NSString *replyCid;
+@property (nonatomic, copy , nullable) NSString *sname;
+@property (nonatomic, copy , nullable) NSString *uid;
+@property (nonatomic, copy , nullable) NSString *cid;
+@property (nonatomic, copy , nullable) NSString *isDel;
+@property (nonatomic, copy , nullable) NSString *replySname;
+@property (nonatomic, copy , nullable) NSString *content;
+@property (nonatomic, copy , nullable) NSString *tid;
+@property (nonatomic, copy , nullable) NSString *replyUid;
+@property (nonatomic, copy , nullable) NSString *avatar;
+@property (nonatomic, copy , nullable) NSString *atuids;
+@property (nonatomic, copy , nullable) NSString *ctime;
+
+@end
+
+
+@interface  LJTweetDataContentTopicCommentModel  : JSONModel 
+
+@property (nonatomic, copy , nullable) NSString *num;
+@property (nonatomic, strong , nullable) NSArray<LJTweetDataContentTopicCommentListModel> *list;
+
+@end
+
+
+@protocol LJTweetDataContentTopicForwardUserModel<NSObject>
+
+@end
+
+
+@interface  LJTweetDataContentTopicForwardUserModel  : JSONModel 
+
+@property (nonatomic, copy , nullable) NSString *sname;
+@property (nonatomic, copy , nullable) NSString *uid;
+
+@end
+
+
+@interface  LJTweetDataContentTopicForwardModel  : JSONModel 
+
+@property (nonatomic, copy , nullable) NSString *url;
+@property (nonatomic, copy , nullable) NSString *num;
+@property (nonatomic, strong , nullable) NSArray<LJTweetDataContentTopicForwardUserModel> *user;
+
+@end
+
+
+@interface  LJTweetDataContentTopicOriginTopicModel  : JSONModel 
+
+@property (nonatomic, copy , nullable) NSString *body;
+@property (nonatomic, copy , nullable) NSString *sname;
+@property (nonatomic, copy , nullable) NSString *uid;
+@property (nonatomic, copy , nullable) NSString *uname;
+@property (nonatomic, copy , nullable) NSString *title;
+@property (nonatomic, copy , nullable) NSString *atuids;
+@property (nonatomic, copy , nullable) NSString *tid;
+@property (nonatomic, copy , nullable) NSString *ctime;
+
+@end
+
+
+@protocol LJTweetDataContentTopicPraiseUserModel<NSObject>
+
+@end
+
+
+@interface  LJTweetDataContentTopicPraiseUserModel  : JSONModel 
+
+@property (nonatomic, copy , nullable) NSString *sname;
+@property (nonatomic, copy , nullable) NSString *uid;
+
+@end
+
+
+@interface  LJTweetDataContentTopicPraiseModel  : JSONModel 
+
+@property (nonatomic, copy , nullable) NSString *num;
+@property (nonatomic, strong , nullable) NSArray<LJTweetDataContentTopicPraiseUserModel> *user;
+
+@end
+
+
+@interface  LJTweetDataContentTopicModel  : JSONModel 
+
+@property (nonatomic, strong , nullable) LJTweetDataContentTopicCommentModel *comment ;  
+@property (nonatomic, copy , nullable) NSString *uid;
+@property (nonatomic, copy , nullable) NSString *isDel;
+@property (nonatomic, copy , nullable) NSString *companyJob;
+@property (nonatomic, copy , nullable) NSString *atuids;
+@property (nonatomic, copy , nullable) NSString *originTid;
+@property (nonatomic, strong , nullable) NSArray *img;
+@property (nonatomic, copy , nullable) NSString *title;
+@property (nonatomic, copy , nullable) NSString *ukind;
+@property (nonatomic, copy , nullable) NSString *extends;
+@property (nonatomic, strong , nullable) LJTweetDataContentTopicForwardModel *forward ;  
+@property (nonatomic, copy , nullable) NSString *type;
+@property (nonatomic, copy , nullable) NSString *body;
+@property (nonatomic, copy , nullable) NSString *sname;
+@property (nonatomic, copy , nullable) NSString *timestamp;
+@property (nonatomic, copy , nullable) NSString *company;
+@property (nonatomic, copy , nullable) NSString *tid;
+@property (nonatomic, copy , nullable) NSString *ukindVerify;
+@property (nonatomic, copy , nullable) NSString *atuidsOrg;
+@property (nonatomic, copy , nullable) NSString *ctime;
+@property (nonatomic, copy , nullable) NSString *industry;
+@property (nonatomic, strong , nullable) LJTweetDataContentTopicOriginTopicModel *originTopic ;  
+@property (nonatomic, copy , nullable) NSString *avatar;
+@property (nonatomic, strong , nullable) LJTweetDataContentTopicPraiseModel *praise ;  
+@property (nonatomic, copy , nullable) NSString *zanNum;
+
+@end
+
+
+@interface  LJTweetDataContentUserInfoModel  : JSONModel 
+
+@property (nonatomic, copy , nullable) NSString *ukind;
+@property (nonatomic, copy , nullable) NSString *sname;
+@property (nonatomic, copy , nullable) NSString *uid;
+@property (nonatomic, copy , nullable) NSString *companyJob;
+@property (nonatomic, copy , nullable) NSString *avatar;
+
+@end
+
+
+@interface  LJTweetDataContentModel  : JSONModel 
+
+@property (nonatomic, strong , nullable) NSArray<LJTweetDataContentTopicModel> *topic;
+@property (nonatomic, strong , nullable) LJTweetDataContentUserInfoModel *userInfo ;  
+
+@end
+
+
+@interface  LJTweetDataModel  : JSONModel 
+
+@property (nonatomic, strong , nullable) LJTweetDataContentModel *content ;  
+
+@end
+
+
+@interface  LJTweetModel  : JSONModel 
+
+@property (nonatomic, copy , nullable) NSString *dErrno;
+@property (nonatomic, strong , nullable) LJTweetDataModel *data ;  
+
+@end
+
+
+
+
+
+
+
+//for implementation
+@implementation  LJTweetDataContentTopicPraiseUserModel
+
++ (BOOL)propertyIsOptional:(NSString *)propertyName
+{
+    return YES;
+}
+
+@end
+
+
+@implementation  LJTweetDataContentTopicOriginTopicModel
+
++ (BOOL)propertyIsOptional:(NSString *)propertyName
+{
+    return YES;
+}
+
+@end
+
+
+@implementation  LJTweetDataContentTopicCommentListModel
+
++ (JSONKeyMapper*)keyMapper
+{
+  NSDictionary *dict = @{
+    @"reply_cid": @"replyCid",
+    @"is_del": @"isDel",
+    @"reply_uid": @"replyUid",
+    @"reply_sname": @"replySname",
+  };
+  return [[JSONKeyMapper alloc]initWithModelToJSONBlock:^NSString *(NSString *keyName) {
+     return dict[keyName]?:keyName;
+  }];
+}
+
++ (BOOL)propertyIsOptional:(NSString *)propertyName
+{
+    return YES;
+}
+
+@end
+
+
+@implementation  LJTweetDataContentTopicPraiseModel
+
++ (BOOL)propertyIsOptional:(NSString *)propertyName
+{
+    return YES;
+}
+
+@end
+
+
+@implementation  LJTweetDataContentTopicForwardModel
+
++ (BOOL)propertyIsOptional:(NSString *)propertyName
+{
+    return YES;
+}
+
+@end
+
+
+@implementation  LJTweetDataContentTopicForwardUserModel
+
++ (BOOL)propertyIsOptional:(NSString *)propertyName
+{
+    return YES;
+}
+
+@end
+
+
+@implementation  LJTweetDataModel
+
++ (BOOL)propertyIsOptional:(NSString *)propertyName
+{
+    return YES;
+}
+
+@end
+
+
+@implementation  LJTweetModel
+
++ (JSONKeyMapper*)keyMapper
+{
+  NSDictionary *dict = @{
+    @"errno": @"dErrno",
+  };
+  return [[JSONKeyMapper alloc]initWithModelToJSONBlock:^NSString *(NSString *keyName) {
+     return dict[keyName]?:keyName;
+  }];
+}
+
++ (BOOL)propertyIsOptional:(NSString *)propertyName
+{
+    return YES;
+}
+
+@end
+
+
+@implementation  LJTweetDataContentTopicModel
+
++ (JSONKeyMapper*)keyMapper
+{
+  NSDictionary *dict = @{
+    @"is_del": @"isDel",
+    @"origin_topic": @"originTopic",
+    @"company_job": @"companyJob",
+    @"zan_num": @"zanNum",
+    @"ukind_verify": @"ukindVerify",
+    @"atuids_org": @"atuidsOrg",
+    @"origin_tid": @"originTid",
+  };
+  return [[JSONKeyMapper alloc]initWithModelToJSONBlock:^NSString *(NSString *keyName) {
+     return dict[keyName]?:keyName;
+  }];
+}
+
++ (BOOL)propertyIsOptional:(NSString *)propertyName
+{
+    return YES;
+}
+
+@end
+
+
+@implementation  LJTweetDataContentUserInfoModel
+
++ (JSONKeyMapper*)keyMapper
+{
+  NSDictionary *dict = @{
+    @"company_job": @"companyJob",
+  };
+  return [[JSONKeyMapper alloc]initWithModelToJSONBlock:^NSString *(NSString *keyName) {
+     return dict[keyName]?:keyName;
+  }];
+}
+
++ (BOOL)propertyIsOptional:(NSString *)propertyName
+{
+    return YES;
+}
+
+@end
+
+
+@implementation  LJTweetDataContentModel
+
++ (JSONKeyMapper*)keyMapper
+{
+  NSDictionary *dict = @{
+    @"user_info": @"userInfo",
+  };
+  return [[JSONKeyMapper alloc]initWithModelToJSONBlock:^NSString *(NSString *keyName) {
+     return dict[keyName]?:keyName;
+  }];
+}
+
++ (BOOL)propertyIsOptional:(NSString *)propertyName
+{
+    return YES;
+}
+
+@end
+
+
+@implementation  LJTweetDataContentTopicCommentModel
+
++ (BOOL)propertyIsOptional:(NSString *)propertyName
+{
+    return YES;
+}
+
+@end
+
+

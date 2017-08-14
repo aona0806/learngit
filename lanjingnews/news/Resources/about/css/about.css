@@ -1,0 +1,30 @@
+.aboutMain{
+
+    padding:0 10px 90px;
+}
+.aboutMain .aboutDes{
+    width:100%;
+    font-size:12px;
+    text-align:center;
+    margin:16px 0px;
+}
+.aboutMain .aboutDes p{
+    margin:20px 0;
+    color:#666;
+}
+.aboutMain .aboutDes  .line{
+    width:40%;
+    height:0;
+    margin:0 auto;
+    border-top:1px solid #aaa;
+    display:block;
+}
+.aboutMain  .ljDes{
+    font-size:16px;
+    color:#000;
+}
+.aboutMain  .ljDes p{
+    line-height:25px;
+    word-break: normal;
+    margin-bottom:20px;
+}

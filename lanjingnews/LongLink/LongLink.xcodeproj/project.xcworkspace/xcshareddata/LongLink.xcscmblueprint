@@ -1,0 +1,25 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "fba401b1-a9fa-4a39-b9fe-a4073cf8cec9++5857",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "fba401b1-a9fa-4a39-b9fe-a4073cf8cec9++5857" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "fba401b1-a9fa-4a39-b9fe-a4073cf8cec9++5857" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "FE32E124-517C-48EA-B341-09DE46D39F19",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "fba401b1-a9fa-4a39-b9fe-a4073cf8cec9++5857" : "lanjingapp\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "LongLink",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "LongLink\/LongLink.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/svn.rd.lanjinger.com",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "fba401b1-a9fa-4a39-b9fe-a4073cf8cec9++5857"
+    }
+  ]
+}

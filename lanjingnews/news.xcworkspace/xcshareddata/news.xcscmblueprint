@@ -1,0 +1,106 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "fba401b1-a9fa-4a39-b9fe-a4073cf8cec9++8513+++667E5FC",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "E084C86B03F81D63323C9E7510697EA528A758C7+++B855F8F" : {
+
+    },
+    "fba401b1-a9fa-4a39-b9fe-a4073cf8cec9++4882+++D88F0BC" : {
+
+    },
+    "E084C86B03F81D63323C9E7510697EA528A758C7+++8459FB6" : {
+
+    },
+    "3AF18F9C6F5D633BAA0B3F935459E0C777C82047+++B46C72C" : {
+
+    },
+    "3AF18F9C6F5D633BAA0B3F935459E0C777C82047+++5636B87" : {
+
+    },
+    "956D2B21DD155C49504BB67697A67F7C5351A353+++EA1CE57" : {
+
+    },
+    "fba401b1-a9fa-4a39-b9fe-a4073cf8cec9++8513+++667E5FC" : {
+      "DVTSourceControlWorkingCopyRepositoryPrimaryBranchLocationKey" : "project\/toolkit.ios.lanjinger.com\/trunk"
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "956D2B21DD155C49504BB67697A67F7C5351A353+++EA1CE57" : 9223372036854775807,
+    "51B210D0D41486D3ADD6940D57E4480BBD4DE4C5+++1E13423" : 9223372036854775807,
+    "E084C86B03F81D63323C9E7510697EA528A758C7+++B855F8F" : 9223372036854775807,
+    "fba401b1-a9fa-4a39-b9fe-a4073cf8cec9++4882+++D88F0BC" : 9223372036854775807,
+    "E084C86B03F81D63323C9E7510697EA528A758C7+++8459FB6" : 9223372036854775807,
+    "3AF18F9C6F5D633BAA0B3F935459E0C777C82047+++B46C72C" : 9223372036854775807,
+    "3AF18F9C6F5D633BAA0B3F935459E0C777C82047+++5636B87" : 9223372036854775807,
+    "E084C86B03F81D63323C9E7510697EA528A758C7+++1A52781" : 9223372036854775807,
+    "51B210D0D41486D3ADD6940D57E4480BBD4DE4C5+++E0AD564" : 9223372036854775807,
+    "fba401b1-a9fa-4a39-b9fe-a4073cf8cec9++8513+++667E5FC" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "26CC7D53-CD8B-4856-87FD-8BFAC75D106D",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "956D2B21DD155C49504BB67697A67F7C5351A353+++EA1CE57" : "lanjingnews\/ReactiveCocoa\/Carthage\/Checkouts\/Result\/",
+    "51B210D0D41486D3ADD6940D57E4480BBD4DE4C5+++1E13423" : "lanjingnews\/ReactiveCocoa\/",
+    "E084C86B03F81D63323C9E7510697EA528A758C7+++B855F8F" : "lanjingnews\/ReactiveCocoa\/Carthage\/Checkouts\/xcconfigs\/",
+    "fba401b1-a9fa-4a39-b9fe-a4073cf8cec9++4882+++D88F0BC" : "lanjingnews\/",
+    "E084C86B03F81D63323C9E7510697EA528A758C7+++8459FB6" : "lanjingnews\/ReactiveCocoa\/Carthage\/Checkouts\/ReactiveSwift\/Carthage\/Checkouts\/xcconfigs\/",
+    "3AF18F9C6F5D633BAA0B3F935459E0C777C82047+++B46C72C" : "lanjingnews\/news\/Thirdparty\/SnapKit\/",
+    "3AF18F9C6F5D633BAA0B3F935459E0C777C82047+++5636B87" : "lanjingnews\/news\/Thirdparty\/SnapKit\/",
+    "E084C86B03F81D63323C9E7510697EA528A758C7+++1A52781" : "lanjingnews\/ReactiveCocoa\/Carthage\/Checkouts\/ReactiveSwift\/Carthage\/Checkouts\/xcconfigs\/",
+    "51B210D0D41486D3ADD6940D57E4480BBD4DE4C5+++E0AD564" : "lanjingnews\/ReactiveCocoa\/Carthage\/Checkouts\/ReactiveSwift\/",
+    "fba401b1-a9fa-4a39-b9fe-a4073cf8cec9++8513+++667E5FC" : "lanjingnews\/ToolKit\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "news",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "news.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/svn.rd.lanjinger.com",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "3AF18F9C6F5D633BAA0B3F935459E0C777C82047+++5636B87"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/SnapKit\/SnapKit.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "3AF18F9C6F5D633BAA0B3F935459E0C777C82047+++B46C72C"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/ReactiveCocoa\/ReactiveCocoa.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "51B210D0D41486D3ADD6940D57E4480BBD4DE4C5+++1E13423"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/ReactiveCocoa\/ReactiveSwift.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "51B210D0D41486D3ADD6940D57E4480BBD4DE4C5+++E0AD564"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/antitypical\/Result.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "956D2B21DD155C49504BB67697A67F7C5351A353+++EA1CE57"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/jspahrsummers\/xcconfigs.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "E084C86B03F81D63323C9E7510697EA528A758C7+++1A52781"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/svn.rd.lanjinger.com",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "E084C86B03F81D63323C9E7510697EA528A758C7+++8459FB6"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/jspahrsummers\/xcconfigs.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "E084C86B03F81D63323C9E7510697EA528A758C7+++B855F8F"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/svn.rd.lanjinger.com",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "fba401b1-a9fa-4a39-b9fe-a4073cf8cec9++4882+++D88F0BC"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/svn.rd.lanjinger.com",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "fba401b1-a9fa-4a39-b9fe-a4073cf8cec9++8513+++667E5FC"
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16A322" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="normalInfo" rowHeight="190" id="KGk-i7-Jjw" customClass="NormalUserInfoHeaderCell" customModule="news" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="190"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="189"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="myInfo_background" translatesAutoresizingMaskIntoConstraints="NO" id="SKB-4o-tvH">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="190"/>
+                    </imageView>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="avQ-Nn-Wcg">
+                        <rect key="frame" x="2" y="20" width="50" height="44"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="50" id="1QD-dS-FgS"/>
+                            <constraint firstAttribute="height" constant="44" id="lml-It-Mr5"/>
+                        </constraints>
+                        <state key="normal" image="myInfo_back"/>
+                        <connections>
+                            <action selector="backAction:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="dff-O9-bYV"/>
+                        </connections>
+                    </button>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="阿拉啦" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Lsp-XJ-7gG">
+                        <rect key="frame" x="135" y="135" width="49" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="GsT-Sh-CMY"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
+                        <color key="textColor" red="0.95075207948684692" green="0.95072358846664429" blue="0.95073974132537842" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="myInfo_default_headerImage" translatesAutoresizingMaskIntoConstraints="NO" id="u9N-kn-Tr2">
+                        <rect key="frame" x="122" y="55" width="75" height="75"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="75" id="9yZ-vu-Pht"/>
+                            <constraint firstAttribute="height" constant="75" id="L4c-4E-iNV"/>
+                        </constraints>
+                    </imageView>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZlD-Of-NTd">
+                        <rect key="frame" x="122" y="55" width="75" height="75"/>
+                        <connections>
+                            <action selector="clickAvatarAction:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="xVj-cp-JRF"/>
+                        </connections>
+                    </button>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="ZlD-Of-NTd" firstAttribute="centerY" secondItem="u9N-kn-Tr2" secondAttribute="centerY" id="228-TB-HYF"/>
+                    <constraint firstItem="avQ-Nn-Wcg" firstAttribute="top" secondItem="SKB-4o-tvH" secondAttribute="top" constant="20" id="2uh-5B-fyP"/>
+                    <constraint firstItem="u9N-kn-Tr2" firstAttribute="centerX" secondItem="SKB-4o-tvH" secondAttribute="centerX" id="7Vt-YH-obY"/>
+                    <constraint firstItem="SKB-4o-tvH" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="-8" id="AUQ-L1-DnR"/>
+                    <constraint firstItem="ZlD-Of-NTd" firstAttribute="height" secondItem="u9N-kn-Tr2" secondAttribute="height" id="BMN-T1-L7U"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="SKB-4o-tvH" secondAttribute="trailing" constant="-8" id="Dqs-Pg-Nmh"/>
+                    <constraint firstItem="ZlD-Of-NTd" firstAttribute="centerX" secondItem="u9N-kn-Tr2" secondAttribute="centerX" id="FMR-id-F4Y"/>
+                    <constraint firstItem="avQ-Nn-Wcg" firstAttribute="leading" secondItem="SKB-4o-tvH" secondAttribute="leading" constant="2" id="Orr-Dp-NCF"/>
+                    <constraint firstItem="Lsp-XJ-7gG" firstAttribute="top" secondItem="u9N-kn-Tr2" secondAttribute="top" id="SDT-en-dAa"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="SKB-4o-tvH" secondAttribute="bottom" constant="-8" id="Xic-i3-1i2"/>
+                    <constraint firstItem="Lsp-XJ-7gG" firstAttribute="top" secondItem="u9N-kn-Tr2" secondAttribute="bottom" constant="5" id="abM-Wf-bY0"/>
+                    <constraint firstItem="SKB-4o-tvH" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="-8" id="jOs-da-Ody"/>
+                    <constraint firstItem="u9N-kn-Tr2" firstAttribute="top" secondItem="SKB-4o-tvH" secondAttribute="top" constant="55" id="k62-KH-gXz"/>
+                    <constraint firstItem="Lsp-XJ-7gG" firstAttribute="centerX" secondItem="u9N-kn-Tr2" secondAttribute="centerX" id="nhh-i9-fer"/>
+                    <constraint firstItem="ZlD-Of-NTd" firstAttribute="width" secondItem="u9N-kn-Tr2" secondAttribute="width" id="rLM-7W-idA"/>
+                </constraints>
+                <variation key="default">
+                    <mask key="constraints">
+                        <exclude reference="SDT-en-dAa"/>
+                    </mask>
+                </variation>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="avatarImage" destination="u9N-kn-Tr2" id="4gn-s7-Ayl"/>
+                <outlet property="nickName" destination="Lsp-XJ-7gG" id="wpa-oP-wJg"/>
+            </connections>
+            <point key="canvasLocation" x="204" y="239"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="myInfo_back" width="7" height="13"/>
+        <image name="myInfo_background" width="320" height="197"/>
+        <image name="myInfo_default_headerImage" width="60" height="60"/>
+    </resources>
+</document>

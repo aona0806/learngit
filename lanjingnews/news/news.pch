@@ -1,0 +1,29 @@
+//
+//  news.pch
+//  news
+//
+//  Created by chunhui on 15/11/24.
+//  Copyright © 2015年 lanjing. All rights reserved.
+//
+
+#ifndef news_pch
+#define news_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#import "CommonMacro.h"
+#import "JSONModel.h"
+#import "UIImageView+WebCache.h"
+#import "NSString+Valid.h"
+#import "Masonry.h"
+#import "AFNetworking.h"
+#import "BlocksKit+UIKit.h"
+#import "UIColor+Util.h"
+#import "LJUtil.h"
+#import <TKDefines.h>
+#import "LJUrlHelper.h"
+#import "UIView+Utils.h"
+#import "MBProgressHUD.h"
+
+#endif /* news_pch */

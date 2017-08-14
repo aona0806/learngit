@@ -1,0 +1,37 @@
+//
+//  LongLink.pch
+//  LongLink
+//
+//  Created by chunhui on 15/9/16.
+//  Copyright © 2015年 chunhui. All rights reserved.
+//
+
+#ifndef LongLink_pch
+#define LongLink_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+//-------------------打印--------------------
+#ifdef DEBUG
+#define NEED_OUTPUT_LOG             1
+#define Is_CanSwitchServer          1
+#else
+#define NEED_OUTPUT_LOG             0
+#define Is_CanSwitchServer          0
+#endif
+
+#if NEED_OUTPUT_LOG
+#define LLLog(xx, ...)                      NSLog(@"%s(%d): " xx, __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__)
+#else
+#define LLLog(xx, ...)                 
+#endif
+
+#define kLongLinkVersion 1
+#define kUseMagicNum 1
+#define kMagicNum    1234567891
+
+
+
+
+#endif /* LongLink_pch */
